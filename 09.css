@@ -1,0 +1,14 @@
+/*Regra para todos os links*/
+a{
+    color:black; /*Altera a cora do link*/
+    text-decoration: none;/* Retira o sublinhado dos links*/
+}
+/* Regra para os links que já foram clicadados (visitados)*/
+a:visited{
+    color: black;
+}
+/* regra para os links quando o mouse está sobre eles*/
+a:hover{
+    color: blue;
+    text-decoration: underline;/*Retorna o sublinhado*/
+}
