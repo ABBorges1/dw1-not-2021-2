@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Araras</title>
+</head>
+<body>
+    <h1>Imagens de Araras</h1>
+    <img src="araras-p.jpg" alt="Imagem pequena de Araras.">
+    <picture>
+        <!-- Quando a tela tiver até 630px de largura, será carregada/exibida a imagem de 300px-->
+        <source media="(max-width: 630px)" srcset="ex02/araras-p.jpg" type="image/jpg">
+        <!-- Quando a tela tiver mais 630px de largura e menos de 1030px, será carregada/exibida a 600px-->
+        <source media="(max-width: 1030px)" srcset="img/distance-education-600px.jpg" type="image/jpeg">
+        <!-- Quando a tela tiver mais de 1030px, será carregada a imagem de 1000px-->
+        <source src="img/distance-education-1000px.jpg" alt="Imagem de 1000px">
+    </picture>
+</body>
+</html>
