@@ -8,14 +8,12 @@
 </head>
 <body>
     <h1>Imagens de Araras</h1>
-    <img src="araras-p.jpg" alt="Imagem pequena de Araras.">
+    <!--<img src="araras-p.jpg" alt="Imagem pequena de Araras.">-->
     <picture>
-        <!-- Quando a tela tiver até 630px de largura, será carregada/exibida a imagem de 300px-->
-        <source media="(max-width: 630px)" srcset="ex02/araras-p.jpg" type="image/jpg">
-        <!-- Quando a tela tiver mais 630px de largura e menos de 1030px, será carregada/exibida a 600px-->
-        <source media="(max-width: 1030px)" srcset="img/distance-education-600px.jpg" type="image/jpeg">
-        <!-- Quando a tela tiver mais de 1030px, será carregada a imagem de 1000px-->
-        <source src="img/distance-education-1000px.jpg" alt="Imagem de 1000px">
+        <source media="(max-width: 630px)" srcset="araras-p.jpg" type="image/jpeg">
+        <source media="(max-width: 1030px)" srcset="araras-m.jpg" type="image/jpeg">
+        <img src="araras-g.jpg" alt="Imagem Granda de uma casal de Araras">
     </picture>
+    <p>Para retonar a página inicial <a href="index.html">clique aqui</a>.</p>
 </body>
 </html>
