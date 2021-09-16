@@ -1,0 +1,52 @@
+h1
+{
+    text-align: center;
+}
+/* Trocando a família de fontes de todos os elementos*/
+*
+{
+    font-family: Calibri, Arial, sans;
+}
+table
+{
+    /*Retirar o espaçamento entre as bordas das células*/
+    border-collapse: collapse;
+    /*
+        0 -> Margem superior e inferior
+        auto-> margem esquerda e direita (autocalculada)
+    */
+    margin: auto;
+}
+/*Bordas para células de cabeçalho e de conteúdos*/
+td, th
+{
+    /*Borda*/
+    border: 1px solid black;
+    /*Espaçamento interno da célula*/
+    padding: 6px;
+}
+th
+{
+    /*Cor de fundo para as células de cabeçalhos*/
+    background-color: rgb(153, 153, 153);
+}
+
+.dir
+{
+    text-align: right;
+}
+.center
+{
+    text-align: center;
+}
+/*Essa regra se aplica as <tr> dentro do <tfoot>*/
+tfoot tr
+{
+   /*Coloca o texto em negrito*/
+    font-weight: bold;
+    /*Coloca o texto em Itálico*/
+   font-style: italic;
+   /*Cor de fundo*/
+   background-color: rgb(231, 231, 231); 
+}
+
