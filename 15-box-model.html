@@ -5,42 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box model</title>
+    <link rel="stylesheet" href="15.css">
 </head>
-<style>
-    /* CSS reset */
-    body
-    {
-        margin: 0;
-        padding: 0;
-    }
-    /**********************/
-    body
-    {
-        border: 2px solid blue;
-        padding: 10px;
-    }
-    #box1
-    {
-        border: 2px solid rgb(32, 150, 140);
-        margin: 10px;
-        padding: 15px;
-    }
-    #box2
-    {
-        box-sizing: border-box; /* Inclui border e padding no tamanho do elemento*/
-        border: 20px solid rgb(118, 206, 184);
-        height: 50px;
-        width: 300px;
-        padding: 0px;
-    }
-</style>
 <body>
+    <h1>Box Model</h1>
     <div id="box1">
         Conteúdo
     </div>
     <hr>
+    <!--
+        Normalmente, a medida da borda NÃO é computada nas dimensões do elemento. Para que a borda faça da medida total do elemento, é necessário colocar a seguinte regra no CSS:
+            box-sizing: border-box
+    -->
     <div id="box2">
         Caixa
+    </div>
+    <hr>
+    <div id="box3">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo nemo, enim, quidem distinctio cupiditate obcaecati itaque voluptate placeat sit facilis fugit blanditiis perferendis at quis dolorum officiis, dicta autem inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ipsam. Maiores beatae, repellat quos, in perspiciatis aut rem debitis dolore temporibus eos doloribus est corrupti similique autem? Aut, molestias amet. <!--LOREM gerador de texto aleatório-->
+    </div>
+    <hr>
+    <div id="box4">
+        Texto do círculo
+    </div>
+    <hr>
+    <img id="imagem1" src="img/metal.jpg" alt="metal">
+    <hr>
+    <div id="box5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, cumque magnam! Qui porro, enim aperiam doloribus quis in facilis mollitia? Nihil consectetur dolor dolorum quia totam voluptatum quaerat vel laborum?
     </div>
 </body>
 </html>

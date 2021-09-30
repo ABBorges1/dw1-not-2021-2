@@ -1,0 +1,87 @@
+/* CSS reset */
+body
+{
+    margin: 0;
+    padding: 0;
+}
+/**********************/
+body
+{
+    border: 2px solid blue;
+    padding: 10px;
+}
+h1
+{
+    /*Sombra de texto, valores iguais aos de um box-shadow*/
+    text-shadow: 2px 2px 4px;
+}
+#box1
+{
+    border: 2px solid rgb(32, 150, 140);
+    margin: 10px;
+    padding: 15px;
+
+    /*Sombra em um elemento de caixa
+        Medidas:
+        1) Deslocamento horizontal
+        2) Deslocamento vertical da sombra
+        3) Embaçamento da sombra
+    */
+    box-shadow: 10px 5px 10px black;
+}
+#box2
+{
+    box-sizing: border-box; /* Inclui border e padding no tamanho do elemento*/
+    border: 20px solid rgb(118, 206, 184);
+    height: 50px;
+    width: 300px;
+    padding: 0px;
+    border-radius: 20px;/* Canto arredondado */
+}
+#box3
+{
+    background-color: rgba(82, 197, 212, 0.63);
+    border-top: 2px solid green; /* topo */
+    border-right: 4px dotted black; /* direita */
+    border-bottom: 2px dashed rgb(104, 104, 64); /* embaixo */
+    border-left: 6px ridge black; /* esquerda */
+
+    /*padding-top: 20px;
+    padding-right: 12px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding: 80px;*/
+    padding: 20px 12px 50px 20px;
+    margin: 30px 16px 10px 25px;
+    /*margin-top: 30px;
+    margin-right: 16px;
+    margin-bottom: 10px;
+    margin-left: 25px;*/
+}
+#box4
+{
+    height: 150px;
+    width: 150px;
+    border: 5px solid DarkKhaki;
+    border-radius: 50%; /*Gera um círculo*/
+    text-align: center;
+    display: flex; /* Habilita o flexbox*/
+    align-items: center; /* Centralizar na vertical*/
+    justify-content: center; /* Centralizar na horizontal*/
+}
+#imagem1
+{
+    border-radius: 50%;
+}
+#box5
+{
+    background-color: yellow;
+    border: 2px solid sienna;
+
+    /*Quando são dadas duas medidas, a primeira serve para top e bottom e a segunda para left e right*/
+    padding: 30px 50px;
+    margin: 40px 20px;
+
+    outline: 2px solid blue;
+    /* O outline (pouco utilizado) é um segundo contorno do elemento, externo à borda*/
+}
